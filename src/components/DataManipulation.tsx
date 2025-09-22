@@ -59,7 +59,7 @@ const getStudentSharedClasses = (enrollments: Array<Array<string>>) => {
 }
 
 export default function DataManipulation() {
-    const [studentSharedClasses, setStudentSharedClasses] = useState({});
+    const [studentSharedClasses, setStudentSharedClasses] = useState<{[key: string]: Array<string>}>({});
 
     useEffect(() => {
         const sharedClasses = getStudentSharedClasses(classEnrollments);
@@ -72,7 +72,7 @@ export default function DataManipulation() {
     for (let key in studentSharedClasses) {
         console.log(key)
         displayedMatches.push(
-            <li>
+            <li key={key}>
                 <span>{key}</span>
                 <span>{studentSharedClasses[key].map((course: string) => course)}</span>
             </li>
