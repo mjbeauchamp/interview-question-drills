@@ -1,3 +1,4 @@
+// PART I
 // Input
 // A variable depth object with a variety of values.
 
@@ -107,7 +108,9 @@ const input4 = {
 //  WRITE YOUR getValuePaths CODE HERE!!!!
 
 
-function getValuePaths() {
+function getValuePaths(
+
+) {
 
 }
 
@@ -118,16 +121,16 @@ export default function RecursivePathRecord() {
 
 
         // UNCOMMENT TO TEST
-    //    const flattenedObject =  getValuePaths(input);
+      //  const flattenedObject =  getValuePaths(input);
        
 
-    //    console.log(flattenedObject);
-    //    console.log(getValuePaths(input2))
-    //           console.log(getValuePaths(input3))
+      //  console.log(flattenedObject);
+      //  console.log(getValuePaths(input2))
+      //         console.log(getValuePaths(input3))
 
-    //                  console.log(getValuePaths(input4))
+      //          console.log(getValuePaths(input4))
 
-    //    console.log(getValuePaths({}))
+      //  console.log(getValuePaths({}))
 
 
     }, [])

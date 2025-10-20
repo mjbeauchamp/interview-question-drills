@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import DataManipulation from './components/DataManipulation'
 import RecursivePathRecord from './components/RecursivePathRecord'
+import StoreItemGrid from './components/StoreItemGrid'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -11,7 +12,8 @@ function App() {
   return (
     <>
       {/* <DataManipulation /> */}
-      <RecursivePathRecord />
+      {/* <RecursivePathRecord /> */}
+      {/* <StoreItemGrid /> */}
     </>
   )
 }

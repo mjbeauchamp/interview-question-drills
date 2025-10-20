@@ -25,15 +25,8 @@ const classEnrollments = [
 //      "17,25": []
 // }
 const getStudentSharedClasses = (enrollments: Array<Array<string>>) => {
-    
 
     // WRITE YOUR CODE HERE!!!!!
-
-
-
-
-
-
 
 }
 
