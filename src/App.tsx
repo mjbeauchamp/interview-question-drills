@@ -5,6 +5,7 @@ import './App.css'
 import DataManipulation from './components/DataManipulation'
 import RecursivePathRecord from './components/RecursivePathRecord'
 import StoreItemGrid from './components/StoreItemGrid'
+import RecursionDrills from './components/RecursionDrills'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -14,6 +15,7 @@ function App() {
       {/* <DataManipulation /> */}
       {/* <RecursivePathRecord /> */}
       {/* <StoreItemGrid /> */}
+      <RecursionDrills />
     </>
   )
 }
